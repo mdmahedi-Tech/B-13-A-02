@@ -6,9 +6,11 @@
     <title>Assignment</title>
    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body class="max-[1140px]">
-<nav class="md:p-8 lg:max-w-8/12 m-auto flex justify-between mt-4 ">
+<nav class="sm:max-w-10/12 lg:max-w-8/12 m-auto flex justify-between mt-4 ">
     <div class="font-bold text-5xl sm:p-0">
         <p class="">Tech<span class="text-pink-400">Wave</span></p>
 
@@ -23,7 +25,7 @@
     </div>
     <!-- for small device -->
      <div>
-        <button><img class="md:hidden w-8 h-8" src="./assets/hamburger-menu.png" alt=""></button>
+        <button><img class="md:hidden w-8 h-8 mt-2" src="./assets/hamburger-menu.png" alt=""></button>
      </div>
     <div class="hidden md:block">
         <button class="bg-linear-65 from-orange-500 bg-purple-500 p-4 rounded-xl text-2xl">Subscribes</button>
@@ -46,8 +48,14 @@
     </div>
     <div class="flex justify-center mt-4 ">
         
-        <button class="bg-linear-65 from-orange-500 bg-purple-500 p-1 rounded-xl text-xl">listen on spotify</button>
-        <button class=" p-1 rounded-xl text-xl ml-6 border text-emerald-600 font-bold">subscribe</button>
+        <button class="bg-linear-65 from-orange-500 bg-purple-500 p-2 rounded-xl text-xl">listen on spotify</button>
+
+            <button class=" space-x-3 flex py-3 px-8 rounded-xl text-xl ml-6 border text-emerald-600 font-bold">
+                <img class="" src="./assets/message.png" alt="">
+                <p>subscribe</p>
+            </button>
+             
+
         
         
     </div>
@@ -179,11 +187,11 @@
       <section class="  flex justify-center items-center text-white" style="background-image: url(./assets/hero-bg.png);">
        <div class="mb-85">
          <h1 class=" mb-4 text-6xl font-bold text-amber-50 text-center">Tech <span class="text-pink-400">Wave</span></h1>
-        <div class="grid grid-cols-4 gap-4 mb-5">
-            <h1>Spotify</h1>
-            <h1>Podcust</h1>
-            <h1>Youtube</h1>
-            <h1>Towitter</h1>
+        <div class="grid grid-cols-4 gap-6 mb-5">
+            <h1 <i class="fa-brands fa-spotify"></i>Spotify</h1>
+            <!-- <h1 <i class="fa-solid fa-podcast"></i>mahedi</h1> -->
+            <h1 <i class="fa-brands fa-square-youtube"></i>Youtube</h1>
+            <h1 <i class="fa-brands fa-square-twitter"></i>Towitter</h1>
         </div>
         <p>&copy;2026 TechWave Podcast. All rights reserved.</p>
        </div>
